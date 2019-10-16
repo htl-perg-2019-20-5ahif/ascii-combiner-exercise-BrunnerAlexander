@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CombinationLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CombinationLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CombinationLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CombinationLogic/1.0.0": {
+      "type": "project",
+      "path": "../CombinationLogic/CombinationLogic.csproj",
+      "msbuildProject": "../CombinationLogic/CombinationLogic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "CombinationLogic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\alexa\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Windows\\OneDrive - HTBLA Perg\\Alexander\\AF_MobileComputing\\5. Jahrgang\\Ascii_Test_Simulation\\ascii-combiner-exercise-BrunnerAlexander\\AsciiArtCombiner\\AsciiArtCombiner\\AsciiArtCombiner.csproj",
+      "projectName": "AsciiArtCombiner",
+      "projectPath": "D:\\Windows\\OneDrive - HTBLA Perg\\Alexander\\AF_MobileComputing\\5. Jahrgang\\Ascii_Test_Simulation\\ascii-combiner-exercise-BrunnerAlexander\\AsciiArtCombiner\\AsciiArtCombiner\\AsciiArtCombiner.csproj",
+      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+      "outputPath": "D:\\Windows\\OneDrive - HTBLA Perg\\Alexander\\AF_MobileComputing\\5. Jahrgang\\Ascii_Test_Simulation\\ascii-combiner-exercise-BrunnerAlexander\\AsciiArtCombiner\\AsciiArtCombiner\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/itpro-at/_packaging/itpro/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "D:\\Windows\\OneDrive - HTBLA Perg\\Alexander\\AF_MobileComputing\\5. Jahrgang\\Ascii_Test_Simulation\\ascii-combiner-exercise-BrunnerAlexander\\AsciiArtCombiner\\CombinationLogic\\CombinationLogic.csproj": {
+              "projectPath": "D:\\Windows\\OneDrive - HTBLA Perg\\Alexander\\AF_MobileComputing\\5. Jahrgang\\Ascii_Test_Simulation\\ascii-combiner-exercise-BrunnerAlexander\\AsciiArtCombiner\\CombinationLogic\\CombinationLogic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
